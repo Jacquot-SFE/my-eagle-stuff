@@ -9,8 +9,10 @@ This stuff doesn't really standalone.  Some of the other resources I'm bringing 
 * [SparkFun's Eagle Components Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
 * [SparkFun's Eagle Settings Repo](https://github.com/sparkfun/SparkFun_Eagle_Settings)
 * The sample I've been using for the layout is Eric Archer's Mini Space Rocker.  He's published several items for it.
-** [The Schematic](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers.pdf)
-** [Some capacitor recipes](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers-flavas.pdf)
+ * [The Schematic](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers.pdf)
+ * [Some capacitor recipes](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers-flavas.pdf)
+ * [Instructions](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers-instructions.pdf)
+ * [Mouser BOM](http://www.ericarcher.net/wp-content/uploads/2014/07/mini-space-rockers-parts-mouser.pdf)
 
 
 ## Contents
