@@ -2,7 +2,7 @@
 #
 # This file can be used to configure the editor windows.
 
-Assign F2 'Info'
+Assign F2 'Info';
 Assign F3 'Move';
 Assign F4 'Copy';
 Assign F5 'Group';
@@ -11,9 +11,10 @@ Assign F7 'Split';
 #Assign AF7 'Group';
 #Assign F8 'Copy';
 #Assign AF3 'Grid inch 0.001 on; Grid alt inch 0.01;';
-#Assign AF10 'Grid mm 1 on; Grid alt mm 0.1;';
 Assign F10 'junction';
+#Assign AF10 'Grid mm 1 on; Grid alt mm 0.1;';
 Assign F11 'Grid mm 1 on; Grid alt mm 0.1;';
+Assign AF11 'Grid mm .1 on; Grid alt mm 0.05;';
 Assign F12 'Grid inch .1 on; Grid alt inch 0.01;';
 Assign AF12 'Grid inch .01 on; Grid alt inch 0.005;';
 
@@ -66,9 +67,23 @@ Assign F9 'route';
 Assign F10 'Ripup';
 display none; display 1 16 17 18 19 20 21 22 23 24 45 51; display -25 -26 -27 -28;
 
+#Assign shortcuts
+Assign F8 ratsnest;
 Assign AF8 drc;
 
+Assign F9 'Route';
+Assign AF9 'Ripup';
+
+# Display the bottom side of board and what it will look like in a more human readable view. The "f" is for "flip".
+Assign C+F 'display all; group all; mirror (> 0 0); display none; display 1 16 17 18 19 20 21 23 25; group;';
+
 SCH:
+Grid Default; #BHW Reset the grid to the standard value
+Change Width 0.006; #BHW Set the 6mil rule
+Set XREF_LABEL_FORMAT %F%N/%S; #BHW Remove row & column from default
+Change XREF ON; #BHW Default to the labels we use (flag border)
+Change Size 0.05; #BHW Use 50mil flags (and text... exceeds minimum)
+
 Assign F9 'Wire';
 Assign AF9 'Label';
 Grid Default;
